@@ -1,0 +1,52 @@
+<!Doctype html>
+
+<html>
+
+<head>
+    <title>Kontaktformular</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+
+<body>
+    <a href="index.html">Startseite</a><br>
+    <a href="html.html">HTML</a><br>
+        <a href="css.html">CSS</a><br>
+        <a href="kontakt.html">Kontakt</a>
+
+    <h1>Kontaktformular</h1>
+    <p>Haben wir Ihr Interesse geweckt? Dann nutzen sie unser Kontaktformular und wir werden uns zeitnah bei Ihnen melden.</p>
+    <p>Die mit *Stern gekennzeichneten Felder bitte vollständig ausfüllen.</p>
+
+    <form action="mailto:nailcan.temirci(at)outlook.com" method="post" enctype="text/plain">
+        <p class="formular"><label for="Vorname">Vorname:*</label><input type="text" id="Vorname" placeholder="Vorname eingeben" required></p>
+        <p class="formular"><label for="Nachname">Nachname:*</label><input type="text" id="Nachname" placeholder="Nachname eingeben" required></p>
+        <p class="formular"><label for="PLZ">PLZ:</label><input type="text" id="PLZ" maxlength="5"></p>
+        <p class="formular"><label for="Anschrift">Anschrift:</label><input type="text" id="Anschrift" ></p>
+        <p class="formular"><label for="E-Mail">E-Mail:*</label><input type="text" id="E-Mail" placeholder="E-Mail Adresse eingeben" required></p>
+        <p></p>
+        <input type="submit" id="Absenden" value="Abesenden">&nbsp;<input type="reset" value="Formular zuruecksetzen">
+
+        <hr>
+        <h2>Weitere Formularelemente</h2>
+        <input type="checkbox" id="checkbox" value="OK"><label for="Checkbox">Hiermit erkläre ich mich einverstanden</label>
+        <p>Wählen sie bitte die Kontaktmethode aus:</p>
+        <select size"4" multiple>
+            <optgroup label="Konventionell">
+            <option>Brief</option>
+            <option>Taube</option>
+            </optgroup>
+            <optgroup label="Elektronisch">
+            <option>Handy</option>
+            <option>E-Mail</option>
+            </optgroup>
+        </select><br>
+
+        <input type="date" value="2022" min="2022-01-01" max="2022-12-31"><br>
+        <input type="email"><br>
+        <input type="color" id="Farbe"><br>
+        <input type="tel" placeholder="+49 0157 12345678"><br>
+        <input type="time"><br>
+        <input type="number" min="1" max="10" value="1"><br>
+    </form>
+</body>
+</html>
