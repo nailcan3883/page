@@ -1,0 +1,110 @@
+body {
+        font-family: arial, helvetica, sans-serif;
+        }
+
+/*******Formatierung Überschriften**************/
+
+h1, h2, h3        {
+        color: #220ebb;
+        }
+
+h1 {
+        font-size: 24px;
+        }
+
+h2 {
+         font-size: 20px;
+         }
+
+h3 {
+         font-size: 16px;
+         }
+
+/********Formatierungen Textbereich*************/
+.rot {
+        color:#ff0000;
+        }
+
+.grün {
+         color:#14c9e0;
+         }
+
+.blau {
+         color:#0000ff;
+         }
+
+/********Formatierung für Listen > disc, circle, square > roman und alpha **************/
+
+ul {
+         list-style-type: square;      /*square oder circle */
+         }
+
+ul.circle {
+         list-style-type: circle;
+         }
+
+
+ol.roman {
+         list-style-type: upper-roman;  /*lower-alpha oder upper-roman*/
+         }
+
+ol.alpha {
+         list-style-type: upper-alpha;  /*lower-alpha oder upper-roman*/
+         }
+
+
+/************* Formatierung Linien ********************/
+
+hr {                                  /*Strich*/
+         height: 5px;
+         background-color: #14ebe0;
+         margin-top: 24px;           /*Abstand zwischen strich und text*/
+         margin-bottom: 24px;
+         }
+
+
+
+/************ Formatierungen für Tabellen **************/
+
+table {
+         /*border: 2px solid #ff00ff;*/
+         margin: 100px;  /*Abstand zu den Seiten*/
+         width: 400px;  /*Tabellen größe*/
+         }
+
+caption {
+         background-color: #000;
+         color: #fff;
+         }
+
+th {
+         background-color: #666;
+         color: #fff;
+         }
+
+td {
+         width: 200px;  /*Tabellen Größe*/
+         background-color: #eee;
+         padding: 10px 20px 6px 6px;
+         text-align: center;  /*text anordnung left,right,center*/
+         vertical-align: top; /*Text Ausrichtung top, middle oder bottom*/
+         }
+
+td.pause {
+         background-color: #ccc;
+         }
+
+
+/**************** Formatierung Formular ********************/
+
+label {
+         display: inline-block;
+         width: 120px;
+         }
+
+.formular {
+         background-color: #eee;
+         padding: 6px;
+         width: 310px;
+         margin-bottom: -6px;
+         }
